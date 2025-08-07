@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Соунд Клауд Кафе</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #ff5500, #ffcc70);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            animation: fadeIn 2s ease-in;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+            animation: fadeIn 1.5s ease;
+        }
+
+        .logo {
+            width: 80px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 10px 0;
+            color: #ff5500;
+        }
+
+        .info {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .contact {
+            margin-top: 20px;
+        }
+
+        .contact p {
+            margin: 8px 0;
+            font-size: 16px;
+            color: #222;
+        }
+
+        .contact i {
+            margin-right: 8px;
+            color: #ff5500;
+        }
+
+        .hours {
+            margin-top: 25px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px;
+            }
+
+            .logo {
+                width: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://d21buns5ku92am.cloudfront.net/26628/images/419679-1x1_SoundCloudLogo_cloudmark-f5912b-original-1645807040.jpg" alt="SoundCloud Logo" class="logo">
+
+        <h1>Соунд Клауд Кафе</h1>
+        <p class="info">Вже у Покрові</p>
+        <p class="info">Вул. Центральна 59</p>
+
+        <h3>Зв'язатися</h3>
+        <div class="contact">
+            <p><i class="fab fa-telegram"></i>@lagig_pon</p>
+            <p><i class="fab fa-telegram"></i>@LestokDemon</p>
+            <p><i class="fas fa-phone"></i>+380636332362</p>
+        </div>
+
+        <div class="hours">
+            Працюємо з 16:00 до 20:00<br>
+            Пт, Сб, Нд
+        </div>
+    </div>
+</body>
+</html>
